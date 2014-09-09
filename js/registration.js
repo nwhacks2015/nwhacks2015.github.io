@@ -17,7 +17,7 @@ $(function() {
     $("form").show();
   });
   // handler for form submission
-  $('input#submit').bind("click", function(event) {
+  $('#submit').on("click", function(event) {
     $('#submit').button('loading');
     var $form = $('form');
     
