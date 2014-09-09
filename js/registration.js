@@ -29,14 +29,15 @@ $(function() {
     var data = convertFormToJSON($form);
     data.password = Math.random().toString(36).substring(2);
     data.username = data.email;
+    
     var user = new Parse.User();
     user.signUp(data, {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
         $(this).hide();
-        $("#prereg-btn").hide();
-        $("#sponsor-btn").hide();
         $('#submit').button('reset');
+        //$("#prereg-btn").hide();
+        //$("#sponsor-btn").hide();
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
