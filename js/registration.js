@@ -14,7 +14,7 @@ $(function() {
 
     
 
-  $('button#prereg-btn').click( function(){
+  $('#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
