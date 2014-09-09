@@ -11,7 +11,7 @@ $(function() {
       return false;
     }
   })*/
-  $("form").show();
+
   $('button#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
@@ -35,8 +35,8 @@ $(function() {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
         $('form').hide();
-        //$("#prereg-btn").hide();
-        //$("#sponsor-btn").hide();
+        $("#prereg-btn").hide();
+        $("#sponsor-btn").hide();
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
