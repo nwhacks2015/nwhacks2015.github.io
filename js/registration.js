@@ -12,7 +12,7 @@ $(function() {
     }
   })*/
 
-    $("form").hide();
+    
 
   $('button#prereg-btn').click( function(){
     $("#prereg-btn").hide();
@@ -36,9 +36,9 @@ $(function() {
     user.signUp(data, {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
+        $("#prereg-btn").show();
+        $("#sponsor-btn").show();
         $('form').hide();
-        $("#prereg-btn").hide();
-        $("#sponsor-btn").hide();
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
