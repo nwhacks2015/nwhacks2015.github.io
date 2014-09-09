@@ -3,14 +3,15 @@ $(function() {
 
 
   // should really disable the return key 
+  /*
   $('form').bind("keyup keypress", function(e) {
     var code = e.keyCode || e.which; 
     if (code  == 13) {               
       e.preventDefault();
       return false;
     }
-  });
-  $('button#prereg').click(function(){
+  })*/;
+  $('button#prereg-btn').on("click", "body", function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
