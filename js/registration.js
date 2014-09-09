@@ -45,6 +45,7 @@ $(function() {
         window.alert("There was an error with your application: " + error.message);
       }
     });
+    event.preventDefault();
 
   });
 });
