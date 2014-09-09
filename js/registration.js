@@ -35,7 +35,7 @@ $(function() {
     var user = new Parse.User();
     user.signUp(data, {
       success: function(user) {
-        window.alert("Thanks for your application! Please check your email to confirm your address.");
+        window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
         $("#prereg-btn").show();
         $("#sponsor-btn").show();
         window.setTimeout( $('form').hide(), 1000);
