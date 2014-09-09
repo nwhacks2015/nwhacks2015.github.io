@@ -11,7 +11,7 @@ $(function() {
       return false;
     }
   })*/;
-  $('button#prereg-btn').on("click", "body", function(){
+  $('button#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
