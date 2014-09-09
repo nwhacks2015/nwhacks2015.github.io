@@ -17,9 +17,9 @@ $(function() {
     $("form").show();
   });
   // handler for form submission
-  $('form').submit(function(event) {
+  $('input#submit').click(function(event) {
     $('#submit').button('loading');
-    var $form = $(this);
+    var $form = $('form');
     
     var $target = $($form.attr('data-target'));
 
