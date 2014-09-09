@@ -19,7 +19,6 @@ $(function() {
   });
   // handler for form submission
   $('#signup').on("click", function(event) {
-    $('#signup').button('loading');
     var $form = $('form');
     
     var $target = $($form.attr('data-target'));
@@ -36,13 +35,11 @@ $(function() {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
         $('form').hide();
-        $('#signup').button('reset');
         //$("#prereg-btn").hide();
         //$("#sponsor-btn").hide();
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
-        $('#signup').button('reset');
       }
     });
 
