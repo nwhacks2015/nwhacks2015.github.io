@@ -38,7 +38,8 @@ $(function() {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
         $("#prereg-btn").show();
         $("#sponsor-btn").show();
-        $('form').hide();
+        window.setTimeout( $('form').hide(), 1000);
+
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
