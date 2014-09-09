@@ -10,12 +10,16 @@ $(function() {
       return false;
     }
   });
-
+  $('button#prereg').click{
+    $("#prereg-btn").hide();
+    $("#sponsor-btn").hide();
+    $("form").show();
+  }
   // handler for form submission
   $('form').submit(function(event) {
     $('#submit').button('loading');
     var $form = $(this);
-    $(this).show();
+    
     var $target = $($form.attr('data-target'));
 
     // Log the user out in case they're still logged in
@@ -29,6 +33,8 @@ $(function() {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
         $(this).hide();
+        $("#prereg-btn").hide();
+        $("#sponsor-btn").hide();
         $('#submit').button('reset');
       },
       error: function(user, error) {
