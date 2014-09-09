@@ -10,15 +10,16 @@ $(function() {
       e.preventDefault();
       return false;
     }
-  })*/;
+  })*/
+  $("form").show();
   $('button#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
   });
   // handler for form submission
-  $('#submit').on("click", function(event) {
-    $('#submit').button('loading');
+  $('#signup').on("click", function(event) {
+    $('#signup').button('loading');
     var $form = $('form');
     
     var $target = $($form.attr('data-target'));
@@ -34,14 +35,14 @@ $(function() {
     user.signUp(data, {
       success: function(user) {
         window.alert("Thanks for your application! Please check your email to confirm your address.");
-        $(this).hide();
-        $('#submit').button('reset');
+        $('form').hide();
+        $('#signup').button('reset');
         //$("#prereg-btn").hide();
         //$("#sponsor-btn").hide();
       },
       error: function(user, error) {
         window.alert("There was an error with your application: " + error.message);
-        $('#submit').button('reset');
+        $('#signup').button('reset');
       }
     });
 
