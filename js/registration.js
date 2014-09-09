@@ -10,11 +10,11 @@ $(function() {
       return false;
     }
   });
-  $('button#prereg').click{
+  $('button#prereg').click(function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
-  }
+  });
   // handler for form submission
   $('form').submit(function(event) {
     $('#submit').button('loading');
