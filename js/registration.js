@@ -15,16 +15,16 @@ $(function() {
     
 
   $('#prereg-btn').click( function(){
-    $("#prereg-btn").hide();
-    $("#sponsor-btn").hide();
-    $("form").show();
+    //$("#prereg-btn").hide();
+    //$("#sponsor-btn").hide();
+    //$("form").show();
   });
   // handler for form submission
   $('#signup').on("click", function(event) {
     var $form = $('form');
     
     var $target = $($form.attr('data-target'));
-
+    console.log('hello');
     // Log the user out in case they're still logged in
     Parse.User.logOut();
     
