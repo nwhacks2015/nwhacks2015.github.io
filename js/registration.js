@@ -1,6 +1,7 @@
 // On page load...
 $(function() {
 
+  Parse.initialize("dHa1lqKqjUFf48Iw5tc4puKB0kbv1ONnejI6q91o","nEU6Qig9G0ldjBALkayRR5cMWQUc7qMXbjGjsGE0");
 
   // should really disable the return key 
   /*
