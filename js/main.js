@@ -29,10 +29,10 @@ $("#hero form").submit(function(e){
 });
 
 // disable parralax if mobile device
-if (Modernizr.touch){
+// if (Modernizr.touch){
 
-} else {
+// } else {
 
-var s = skrollr.init();
+// var s = skrollr.init();
 
-}
+// }
