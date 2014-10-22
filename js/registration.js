@@ -36,10 +36,11 @@ $(function() {
     var user = new Parse.User();
     user.signUp(data, {
       success: function(user) {
-        window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
         $("#prereg-btn").show();
         $("#sponsor-btn").show();
         $("#signup").hide();
+        window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
+
         window.setTimeout( $('form').hide(), 1000);
 
       },
