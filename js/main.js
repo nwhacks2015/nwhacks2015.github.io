@@ -14,19 +14,19 @@ $("#hero button").click(function(e){
 });
 
 
-$("#hero form").submit(function(e){
-    form = $(this);
-    e.preventDefault();
-    $.post('subscribe', form.serialize())
-        .done(function(data){
-            form.parent().append('<p class="success">Thanks! We&#39;ll be in touch soon.</p>');
-            form.remove();
-        })
+// $("#hero form").submit(function(e){
+//     form = $(this);
+//     e.preventDefault();
+//     $.post('subscribe', form.serialize())
+//         .done(function(data){
+//             form.parent().append('<p class="success">Thanks! We&#39;ll be in touch soon.</p>');
+//             form.remove();
+//         })
 
-        .fail(function(data){
-            alert(data.responseJSON.message);
-        })
-});
+//         .fail(function(data){
+//             alert(data.responseJSON.message);
+//         })
+// });
 
 // disable parralax if mobile device
 // if (Modernizr.touch){
