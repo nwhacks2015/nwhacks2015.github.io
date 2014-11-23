@@ -1863,10 +1863,11 @@ section .header-frame {
   color: white;
 }
   section .header-frame h1 {
-    font-size: 27vh;
+    font-size: 20vh;
   }
   section .header-frame h3 {
-    font-size: 13vh;
+    font-size: 10vh;
+    font-weight:100;
   }
 
 #faq {
