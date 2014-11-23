@@ -1755,6 +1755,53 @@ header {
       text-transform: uppercase;
       font-weight: 700;
       color: #57655f; }
+      
+      
+section#sponsor-logos {
+  margin: 40px 20%;
+  padding: 0;
+  max-width: 60%;
+}
+
+.sponsors img {
+  max-height: 100%;
+  max-width: 95%;
+  -webkit-filter: grayscale(1) opacity(0.5);
+  display: block;
+  margin: auto;
+}
+
+.sponsors .giga, .sponsors .mega, .sponsors .kilo, .sponsors .byte {
+  display: inline-block;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.sponsors .giga a {
+  height: 10rem;
+  width: 100%;
+}
+
+.sponsors .mega a {
+  height: 5rem;
+  width: 100%;
+}
+
+.sponsors .kilo a {
+  height: 4rem;
+  width: 100%;
+}
+
+.sponsors .byte a {
+  height: 2rem;
+  width: 33%;
+}
+
+.sponsors .giga a, .sponsors .mega a, .sponsors .kilo a, .sponsors .byte a {
+  position: relative;
+}
 
 #sponsors {
   padding: 100px 0;
