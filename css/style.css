@@ -1821,7 +1821,7 @@ section.sponsors {
 }
 
 
-#partner-logos .sponsors .peta a {
+#partner-logos.sponsors .peta a {
   height: 12rem;
   width: 33%;
 }
