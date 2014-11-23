@@ -1857,8 +1857,22 @@ section.sponsors {
   #sponsors .bronze {
     background-color: #5fd09b; }
 
+section .header {
+  height: 72vh;
+}
+  section .header h1 {
+    font-size: 27vh;
+  }
+  section .header h3 {
+    font-size: 13vh;
+  }
+
 #faq {
   padding: 100px 0; }
+  #faq .header {
+  background-color: #7DB99E;
+  color: white;
+}
   #faq nav {
     padding: 0 10px;
     margin-bottom: 15px;
