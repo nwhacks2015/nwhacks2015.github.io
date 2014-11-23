@@ -1867,7 +1867,7 @@ section .header-frame {
   }
   section .header-frame h3 {
     font-size: 7vh;
-    font-weight: 80;
+    font-weight: 100;
   }
 
 #faq {
