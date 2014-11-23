@@ -1826,6 +1826,10 @@ section.sponsors {
   width: 33%;
 }
 
+#partner-logos.sponsors .peta a img#next36{
+  padding-top:3rem;
+}
+
 #sponsors {
   padding: 100px 0;
   background-color: #f8f9f9; }
