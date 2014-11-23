@@ -1857,19 +1857,20 @@ section.sponsors {
   #sponsors .bronze {
     background-color: #5fd09b; }
 
-section .header {
+section .header-frame {
   height: 72vh;
+  text-align:center;
 }
-  section .header h1 {
+  section .header-frame h1 {
     font-size: 27vh;
   }
-  section .header h3 {
+  section .header-frame h3 {
     font-size: 13vh;
   }
 
 #faq {
   padding: 100px 0; }
-  #faq .header {
+  #faq .header-frame {
   background-color: #7DB99E;
   color: white;
 }
