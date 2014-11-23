@@ -1800,16 +1800,11 @@ header {
   height: 4rem;
   width: 100%;
 }
-.sponsors .kilo a img {
-  max-height: 60px;
-}
+
 
 .sponsors .byte a {
-  height: 2rem;
-  width: 33%;
-}
-.sponsors .byte a img {
-  max-height: 30px;
+  height: 1rem;
+  width: 50%;
 }
 
 .sponsors .giga a, .sponsors .mega a, .sponsors .kilo a, .sponsors .byte a {
