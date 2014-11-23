@@ -1872,7 +1872,7 @@ section .header-frame {
 #faq {
   padding: 100px 0; }
   #faq .header-frame {
-  background-color: #00A8C6;
+  background-color: #556270;
 }
   #faq nav {
     padding: 0 10px;
@@ -1951,10 +1951,16 @@ section .header-frame {
     background-color: #7DB99E;
   } 
   
+#sponsors {
+  padding: 100px 0; }
+  #sponsors .header-frame {
+    background-color: #FF6B6B;
+  } 
+  
 #contact {
   padding: 100px 0; }
   #contact .header-frame {
-    background-color: #F02475;
+    background-color: #C44D58;
   } 
 
 
