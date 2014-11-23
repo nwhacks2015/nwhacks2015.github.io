@@ -1763,6 +1763,16 @@ header {
   max-width: 60%;
 }
 
+section.sponsors { 
+  z-index: 5;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 2em;
+  font-family: lato, sans-serif;
+  color: #57655f;
+  text-align:center;
+}
+
 .sponsors a {
   height: 4rem;
   float: left;
