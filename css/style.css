@@ -1763,6 +1763,13 @@ header {
   max-width: 60%;
 }
 
+.sponsors a {
+  height: 3rem;
+  float: left;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
 .sponsors img {
   max-height: 100%;
   max-width: 95%;
