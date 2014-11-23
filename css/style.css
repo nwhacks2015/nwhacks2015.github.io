@@ -1764,7 +1764,7 @@ header {
 }
 
 .sponsors a {
-  height: 3rem;
+  height: 4rem;
   float: left;
   display: inline-block;
   padding: 1rem 0;
@@ -1803,7 +1803,7 @@ header {
 
 
 .sponsors .byte a {
-  height: 2rem;
+  height: 3.8rem;
   width: 50%;
 }
 
