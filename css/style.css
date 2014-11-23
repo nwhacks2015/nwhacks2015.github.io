@@ -1860,6 +1860,7 @@ section.sponsors {
 section .header-frame {
   height: 72vh;
   text-align:center;
+  color: white;
 }
   section .header-frame h1 {
     font-size: 27vh;
@@ -1871,8 +1872,7 @@ section .header-frame {
 #faq {
   padding: 100px 0; }
   #faq .header-frame {
-  background-color: #7DB99E;
-  color: white;
+  background-color: #BCBDAC;
 }
   #faq nav {
     padding: 0 10px;
@@ -1931,6 +1931,33 @@ section .header-frame {
           text-transform: none; }
       #faq article .question p {
         line-height: 1.35em; }
+
+#schedule {
+  padding: 100px 0; }
+  #schedule .header-frame {
+    background-color: #CFBE27;
+  }
+
+#hardware {
+  padding: 100px 0; }
+  #hardware .header-frame {
+    background-color: #F27435;
+  } 
+  
+
+#sustainability {
+  padding: 100px 0; }
+  #sustainability .header-frame {
+    background-color: #7DB99E;
+  } 
+  
+#contact {
+  padding: 100px 0; }
+  #contact .header-frame {
+    background-color: #F02475;
+  } 
+
+
 
 footer {
   background-color: #45af75;
