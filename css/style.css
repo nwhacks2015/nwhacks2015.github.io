@@ -1859,15 +1859,15 @@ section.sponsors {
 
 section .header-frame {
   padding-bottom: 25vh;
-  text-align:center;
+  text-align: center;
   color: white;
 }
   section .header-frame h1 {
     font-size: 20vh;
   }
   section .header-frame h3 {
-    font-size: 10vh;
-    font-weight:100;
+    font-size: 7vh;
+    font-weight: 80;
   }
 
 #faq {
