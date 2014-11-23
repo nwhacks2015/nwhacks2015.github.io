@@ -1788,15 +1788,24 @@ header {
   height: 5rem;
   width: 100%;
 }
+.sponsors .mega a img {
+  max-height: 100px;
+}
 
 .sponsors .kilo a {
   height: 4rem;
   width: 100%;
 }
+.sponsors .mega a img {
+  max-height: 60px;
+}
 
 .sponsors .byte a {
   height: 2rem;
   width: 33%;
+}
+.sponsors .mega a img {
+  max-height: 30px;
 }
 
 .sponsors .giga a, .sponsors .mega a, .sponsors .kilo a, .sponsors .byte a {
