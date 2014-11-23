@@ -1757,7 +1757,7 @@ header {
       color: #57655f; }
       
       
-section#sponsor-logos {
+#sponsor-logos {
   margin: 40px 20%;
   padding: 0;
   max-width: 60%;
