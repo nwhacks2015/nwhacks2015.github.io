@@ -1863,7 +1863,7 @@ section .header-frame {
   color: white;
 }
   section .header-frame h1 {
-    font-size: 20vh;
+    font-size: 13vh;
   }
   section .header-frame h3 {
     font-size: 7vh;
