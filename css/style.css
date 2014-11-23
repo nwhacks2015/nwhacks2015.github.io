@@ -1801,7 +1801,6 @@ header {
   width: 100%;
 }
 
-
 .sponsors .byte a {
   height: 3.8rem;
   width: 50%;
@@ -1809,6 +1808,12 @@ header {
 
 .sponsors .giga a, .sponsors .mega a, .sponsors .kilo a, .sponsors .byte a {
   position: relative;
+}
+
+
+#partner-logos .sponsors .giga a {
+  height: 12rem;
+  width: 100%;
 }
 
 #sponsors {
