@@ -1872,7 +1872,7 @@ section .header-frame {
 #faq {
   padding: 100px 0; }
   #faq .header-frame {
-  background-color: #BCBDAC;
+  background-color: #00A8C6;
 }
   #faq nav {
     padding: 0 10px;
@@ -1935,13 +1935,13 @@ section .header-frame {
 #schedule {
   padding: 100px 0; }
   #schedule .header-frame {
-    background-color: #CFBE27;
+    background-color: #40C0CB;
   }
 
 #hardware {
   padding: 100px 0; }
   #hardware .header-frame {
-    background-color: #F27435;
+    background-color: #576564;
   } 
   
 
