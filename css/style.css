@@ -1858,7 +1858,7 @@ section.sponsors {
     background-color: #5fd09b; }
 
 section .header-frame {
-  height: 72vh;
+  padding-bottom: 25vh;
   text-align:center;
   color: white;
 }
