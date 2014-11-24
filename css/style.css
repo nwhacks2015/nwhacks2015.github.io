@@ -1964,6 +1964,7 @@ section .header-frame {
 
 footer {
   background-color: #45af75;
+  margin-top:10%;
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url("../img/footertriangle.png");
