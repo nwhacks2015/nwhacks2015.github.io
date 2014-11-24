@@ -1830,33 +1830,6 @@ section.sponsors {
   padding-top:3rem;
 }
 
-#sponsors {
-  padding: 100px 0;
-  background-color: #f8f9f9; }
-  #sponsors h2 {
-    z-index: 5;
-    font-weight: 700;
-    font-size: 2em;
-    margin-bottom: 2em;
-    font-family: lato, sans-serif;
-    color: #57655f; }
-  #sponsors .sponsor {
-    margin-top: 5px;
-    margin-bottom: 5px; }
-    #sponsors .sponsor h3 {
-      color: white;
-      font-family: lato;
-      text-transform: uppercase;
-      padding-top: 40px;
-      text-align: center;
-      height: 100px; }
-  #sponsors .gold {
-    background-color: #316b50; }
-  #sponsors .silver {
-    background-color: #499f77; }
-  #sponsors .bronze {
-    background-color: #5fd09b; }
-
 section .header-frame {
   padding-bottom: 25vh;
   text-align: center;
@@ -2077,6 +2050,36 @@ header.sponsor-header {
       line-height: 1.3em;
       font-weight: 300;
       padding-bottom: 1em; }
+
+.schedule-table {
+  margin: auto;
+  text-align: left;
+  margin-bottom: 50px;
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .schedule-table {
+    width: 80%;
+  }
+}
+
+.schedule-table td small {
+  display: block;
+}
+
+.schedule-table td, .schedule-table th {
+  padding: 10px;
+}
+
+.schedule-table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule-table tbody tr:last-child {
+  border-bottom: none;
+}
+
 
 #table {
   padding: 0 0 5em 0;
