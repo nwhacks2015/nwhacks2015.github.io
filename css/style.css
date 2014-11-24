@@ -1903,6 +1903,12 @@ section .header-frame {
         margin-bottom: .25em; }
         #faq article .question h3 em {
           text-transform: none; }
+          
+      #faq article.faq-prose .question h3 {
+        font-size: 2.3em;
+        color: black;
+        font-weight: 900;
+        margin-bottom: .25em; }
       #faq article .question p {
         line-height: 1.35em; }
 
