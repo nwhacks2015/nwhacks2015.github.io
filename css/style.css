@@ -1905,11 +1905,13 @@ section .header-frame {
           text-transform: none; }
           
       #faq article.faq-prose .question h3 {
+        text-transform: none;
         font-size: 2.3em;
         color: black;
         font-weight: 900;
         margin-bottom: .25em; }
       #faq article .question p {
+        font-weight: 200;
         line-height: 1.35em; }
 
 #schedule {
