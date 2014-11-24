@@ -1913,7 +1913,8 @@ section .header-frame {
         margin-top: 1.5em; }
       #faq article .question p {
         font-weight: 200;
-        line-height: 1.5em; }
+        line-height: 1.5em; 
+        margin-top:0.23em; }
 
 #schedule {
   padding: 100px 0; }
