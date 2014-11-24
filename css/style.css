@@ -1903,7 +1903,10 @@ section .header-frame {
         margin-bottom: .25em; }
         #faq article .question h3 em {
           text-transform: none; }
-          
+      #faq article.faq-prose {
+        display:block; 
+        margin: 10% 20% 0 20%;
+      }     
       #faq article.faq-prose .question h3 {
         text-transform: none;
         font-size: 2.7em;
