@@ -1592,7 +1592,9 @@ header {
   #hero .text {
     float: left;
     text-transform: uppercase;
-    margin: 0 auto; }
+    margin: 0 auto; 
+    text-align: right!important;
+  }
     @media (max-width: 767px) {
       #hero .text {
         -webkit-filter: drop-shadow(2px 2px 2px #111111);
