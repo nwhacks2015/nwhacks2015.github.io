@@ -1593,6 +1593,11 @@ header {
     float: left;
     text-transform: uppercase;
     margin: 0 auto; 
+  }
+  #hero .slogan {
+    float: right;
+    text-transform: uppercase;
+    margin: 0 auto; 
     text-align: right!important;
   }
     @media (max-width: 767px) {
