@@ -1598,11 +1598,11 @@ header {
     float: left;
     text-transform: uppercase;
     margin: 0 auto;
-    h1, h2, h3 {
-      text-align: right;
-    }
-  }
 
+  }
+ #hero .slogan h1, #hero .slogan h2, #hero .slogan h3 {
+    text-align: right;
+  }
   #hero .slogan h1 {
     font-size: 6.9em;
     font-weight: 600;
