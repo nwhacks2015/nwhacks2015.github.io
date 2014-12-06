@@ -1576,6 +1576,68 @@ header {
     header .triangle .small {
       left: 0; }
 
+#header  {
+  position: relative;
+  z-index: 4;
+  font-family: lato, sans-serif;
+  color: white;
+  font-size: 12px;
+  padding: 0 0 7em 0;
+  text-align: center; }
+  @media (max-width: 767px) {
+    #hero {
+      max-width: 450px;
+      margin: 0 auto;
+      padding-top: 2em; } }
+  #header .slogan {
+    float: left;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+  }
+    #header .slogan h1, #header .slogan h2, #header .slogan h3 {
+      text-align: right;
+    }
+    #header .slogan h1 {
+      font-size: 6.9em;
+      font-weight: 600;
+      line-height:0.6;
+    }
+    #header .slogan h2 {
+      font-size: 3.5em;
+      font-weight: 600;
+    }
+    #header .slogan h3 {
+      font-size: 2.5em;
+      font-weight: 400;
+    }
+    @media (max-width: 767px) {
+      #header .slogan {
+        -webkit-filter: drop-shadow(2px 2px 2px #111111);
+        filter: drop-shadow(2px 2px 2px #111111);
+        width: 100%; } }
+  #header h2 {
+    font-size: 2.6em;
+    text-align: left; }
+    @media (max-width: 767px) {
+      #hero h2 {
+        font-size: 2.5em;
+        text-align: center; } }
+  #header h3 {
+    text-align: left;
+    font-size: 3.5em;
+    font-weight: 600; }
+    @media (max-width: 767px) {
+      #hero h3 {
+        font-size: 3.5em;
+        text-align: center; } }
+  #header img {
+    height: 100%;
+    float: left;
+    height: 13em;
+    right: 0;
+    top: 0; }
+
 #hero {
   position: relative;
   z-index: 4;
@@ -1593,28 +1655,6 @@ header {
     float: left;
     text-transform: uppercase;
     margin: 0 auto; 
-  }
-  #hero .slogan {
-    float: left;
-    text-transform: uppercase;
-    margin: 0 auto;
-
-  }
- #hero .slogan h1, #hero .slogan h2, #hero .slogan h3 {
-    text-align: right;
-  }
-  #hero .slogan h1 {
-    font-size: 6.9em;
-    font-weight: 600;
-    line-height:0.6;
-  }
-  #hero .slogan h2 {
-    font-size: 3.5em;
-    font-weight: 600;
-  }
-  #hero .slogan h3 {
-    font-size: 2.5em;
-    font-weight: 400;
   }
     @media (max-width: 767px) {
       #hero .text {
