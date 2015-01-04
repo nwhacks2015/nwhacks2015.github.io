@@ -2111,6 +2111,12 @@ header.sponsor-header {
     transform: translateY(-50%);
     font-size: 5em;
     text-align: center; }
+    
+  #hero.sponsor-hero.faq h2 {
+    position: relative;
+    padding-top:10%;
+    font-size: 5em;
+    text-align: center; }
 
 #about {
   padding: 2.5em 0; }
