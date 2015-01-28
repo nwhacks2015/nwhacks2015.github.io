@@ -1,7 +1,7 @@
-$("#faq nav a").click(function(e) {
+$("#faq .content-frame nav a").click(function(e) {
   e.preventDefault();
-  $("#faq article").removeClass( "active" );
-  $("#faq nav a").removeClass( "activetab" );
+  $("#faq .content-frame article").removeClass( "active" );
+  $("#faq .content-frame nav a").removeClass( "activetab" );
   $($(this).attr("href")).addClass("active");
   $(this).addClass("activetab");
 });
