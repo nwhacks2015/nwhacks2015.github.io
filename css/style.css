@@ -1636,7 +1636,10 @@ header {
     float: left;
     height: 13em;
     right: 0;
-    top: 0; }
+    top: 0; 
+    padding-left:10px;
+margin-top:10px;
+  }
 
 #hero {
   position: relative;
@@ -1908,8 +1911,11 @@ section .header-frame {
 
 #faq {
   padding: 50px 0; }
-  #faq .header-frame {
+#faq .header-frame {
   background-color: #556270;
+}
+.content-frame {
+  padding-top: 5vh;
 }
   #faq nav {
     padding: 0 10px;
