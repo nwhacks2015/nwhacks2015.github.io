@@ -7,11 +7,11 @@ $("#faq .content-frame nav a").click(function(e) {
 });
 
 
-$("#hero button").click(function(e){
-    $(this).hide();
-    $("#hero form").show();
-    $("#sponsor-btn").toggle();
-});
+// $("#hero button").click(function(e){
+//     $(this).hide();
+//     $("#hero form").show();
+//     $("#sponsor-btn").toggle();
+// });
 
 
 // $("#hero form").submit(function(e){
