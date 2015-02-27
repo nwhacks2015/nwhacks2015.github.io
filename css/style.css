@@ -1877,6 +1877,11 @@ section.sponsors {
   width: 50%;
 }
 
+.sponsors .kilo a.ubc {
+  height: 3rem;
+  width: 25%;
+}
+
 .sponsors .byte a {
   height: 2.5rem;
   width: 50%;
