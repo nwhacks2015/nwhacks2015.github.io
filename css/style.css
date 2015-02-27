@@ -1872,14 +1872,14 @@ section.sponsors {
   width: 33%;
 }
 
+.sponsors .mega a.ubc {
+  width: 16%;
+}
+
+
 .sponsors .kilo a {
   height: 5rem;
   width: 50%;
-}
-
-.sponsors .kilo a.ubc {
-  height: 3rem;
-  width: 25%;
 }
 
 .sponsors .byte a {
