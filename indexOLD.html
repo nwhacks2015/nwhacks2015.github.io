@@ -1,59 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>nwHacks 2015</title>
+	<title>StormHacks 1.0</title>
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto:200,300,400,500,700,900">
-	<link rel="stylesheet" href="css/style.css">
+	<style>body{margin:0;padding:0;font:400 14pt Roboto,sans-serif;text-rendering:optimizeLegibility;opacity:1;-webkit-transition:opacity 200ms;-moz-transition:opacity 200ms;-ms-transition:opacity 200ms;-o-transition:opacity 200ms;transition:opacity 200ms}body.loading{opacity:0}.width{margin:0 auto;max-width:1000px;width:90%}.btn{display:inline-block;padding:12px 16px;background:#456;color:#FFF;text-transform:uppercase;font-size:11pt;letter-spacing:2px;cursor:pointer;border:3px solid #456;border-radius:2px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-transition:background 150ms;-moz-transition:background 150ms;-ms-transition:background 150ms;-o-transition:background 150ms;transition:background 150ms;user-select:none}.btn:hover{background:#345;text-decoration:none}.btn:active{background:#567}a{text-decoration:none;color:inherit}a:hover{text-decoration:underline}header{position:absolute;height:100%;width:100%;top:0;left:0;background:url(https://raw.githubusercontent.com/nwhacks/site/gh-pages//images/bg.jpg) #456 bottom left;background-size:cover;color:#FFF}header div{margin:0 auto;max-width:1000px;width:90%;position:relative;top:150px}header #logo{width:50px;height:50px}header h1{margin:0 auto;max-width:1000px;width:90%;padding:25px 0 0;font-weight:500;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative}header h1 span{font-weight:200}header nav{margin:0 auto;max-width:1000px;width:90%;padding:10px 0}header nav a{color:#FFF;padding:8px 12px;border:2px solid #FFF;border-radius:2px;font-size:.75em;text-transform:uppercase;display:inline-block;margin-right:15px}header h2{max-width:1000px;width:90%;padding:190px 0 0;margin:0 auto;font-weight:200;font-size:2em}header h3{max-width:1000px;width:90%;margin:0 auto;font-weight:200;font-size:1.2em}section{padding:75px 0 125px}section h1{color:#456;margin:.83em 0;font-size:2em}section:nth-of-type(even){background:rgba(68,85,102,.03)}#intro{margin:0 auto;max-width:1000px;width:90%}#intro p,#intro .register{margin-top:2em}#stats{list-style-type:none;margin:0;padding:0}#stats li{display:inline-block;margin:0 50px;position:relative}#stats li:before{content:" ";position:absolute;top:5px;left:-75px;width:36px;height:90px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAABkBAMAAAAGSm9JAAAAJFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmWAJHAAAADHRSTlMAECAwQFBgcICPn6985RmKAAAAtUlEQVR4Xs3VLQ7CQBgG4VL+2mKwoOoAVwUWha4B3QTwzXIB0hMAJ+gROCIXGDHJhsDKMU/eZJMvgVdQXFN8UXxAG9cQc+103rF7NtrpoY0au2dBMcQ5c4hLcm7WGbJj95y100IstHOxTtraPfkXnNJ+wqv91+kdYlbaPUftUMz0npN1BhSn2jnEORXEmXae1plUds82ztnbPTvrJOzYPSvt9OTUUUep+7uj1EQdpfDLo/SG9gHsiiDPNVrg/AAAAABJRU5ErkJggg==);opacity:.5}#stats li:first-of-type{margin:0 50px 0 0}#stats li:first-of-type:before{display:none}#stats dt{font-size:3em;font-weight:200}#stats dd{text-transform:uppercase;font-size:.75em;font-weight:700;letter-spacing:1px;color:#BAA;margin:0;width:100%;text-align:center}#sponsors h1{margin:.83em auto}#montage{position:relative;padding:0;background:#456;width:100%;opacity:1;-webkit-transition:opacity 500ms;-moz-transition:opacity 500ms;-ms-transition:opacity 500ms;-o-transition:opacity 500ms;transition:opacity 500ms}#montage div{width:100%;height:150px}#montage a{display:block;float:left;overflow:hidden;height:150px;opacity:.5;padding:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:opacity 150ms;-moz-transition:opacity 150ms;-ms-transition:opacity 150ms;-o-transition:opacity 150ms;transition:opacity 150ms}#montage a:hover{opacity:1}#montage a img{display:block;height:auto;max-height:90px;width:auto;max-width:100%;margin:0 auto}#montage.hidden{opacity:0}#montage div:first-of-type{height:300px}#montage div:first-of-type a{height:300px}#montage div:first-of-type a img{max-height:240px}#montage div:nth-of-type(2){height:200px}#montage div:nth-of-type(2) a{height:200px}#montage div:nth-of-type(2) a img{max-height:140px}#faq nav{padding-bottom:10px}#faq nav a{color:#456;opacity:.5}#faq nav a.active{font-weight:700;opacity:1}#faq article{display:none}#faq article.active{display:block}footer{padding:100px 0;background:#456;margin-top:200px;color:#FFF;font-weight:200}footer>*{margin:0 auto;max-width:1000px;width:90%}footer nav{font-weight:700;margin-bottom:1em}footer p a{font-weight:400}@media screen and (max-width:750px){#stats li{display:block;margin:0 0 25px}#stats li:first-of-type{margin:0 0 25px}#stats li:before{display:none}#stats dd{text-align:left}}@media screen and (max-width:650px){body{font-size:20pt}header h2{font-size:1.75em}header h1{font-size:1.5em}}@media screen and (max-width:385px){header span{display:none}header div{top:75px}header h2{padding-top:140px}}</style>
 </head>
-<body>
+<body class="loading">
 	<header>
+		<div><img id="logo" src="https://raw.githubusercontent.com/nwhacks/site/gh-pages/images/logo.white.svg" alt="({})"></div>
+		<h2>Welcome to the most epic hacknight series <br>in the Pacific Northwest</h2>
+		<nav>
+			<a href="#">Signup</a>
+			<a href="https://www.facebook.com/groups/ubcappdevelopment/events/">Upcoming Events</a>
+			<a href="https://docs.google.com/forms/d/1zz5PSehSc-PALkzIEIysv2T4CDRgaFQBW7Y4xObZLW0/viewform">Mentor/Volunteer</a>
+			<a href="#intro">About</a>
+		</nav>
+		<h1>stormHacks <span>1.0</span></h1>
+		<h3>September - December 2014 </h3>
 	</header>
-	
 	<section id="intro">
+		<h1>This is stormHacks.</h1>
+		<ul id="stats">
+			<li>
+				<dt>Epic</dt>
+				<dd>challenges</dd>
+			</li>
+			<li>
+				<dt>Friday at 6pm</dt>
+				<dd>every week</dd>
+			</li>
+			<li>
+				<dt>Kaiser 4018</dt>
+				<dd>UBC, Vancouver</dd>
+			</li>
+		</ul>
+		<p>StormHacks is the awesomest hacknights series happening this term in UBC. If you are interested in learning more about programming, making new friends, solving fun challenges and building something awesome, come out and check us out!</p>
+		<a href="#" class="btn register">Register</a>
 	</section>
-	
-	<section id="sponsors">
-		<h1 class="width">Sponsors</h1>
-	</section>
-	<section id="faq">
+	<!--<section id="sponsors">-->
+	<!--	<h1 class="width">Sponsors</h1>-->
+	<!--	<div id="montage" class="hidden">-->
+	<!--		<div>-->
+	<!--			<a href="#" style="background: #000"><img src="http://cdn.shopify.com/assets/images/affiliates-badges-banners/logos/shopify-2010-white.png?1399058777" alt=""></a>-->
+	<!--		</div>-->
+	<!--		<div>-->
+	<!--			<a href="#" style="background: #3686be"><img src="https://www.digitalocean.com/assets/images/cloud-6a1216d2.svg" alt=""></a>-->
+	<!--			<a href="#" style="background: #FFF"><img src="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png" alt=""></a>-->
+	<!--		</div>-->
+	<!--		<div>-->
+	<!--			<a href="#" style="background: #FFF"><img src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_Google_2013_Official.svg" alt=""></a>-->
+	<!--			<a href="#" style="background: #55ACEE"><img src="https://g.twimg.com/Twitter_logo_white.png" alt=""></a>-->
+	<!--			<a href="#" style="background: #002145"><img src="http://assets.brand.ubc.ca/signatures/4_logo/4_reverse/rgb/s4r.png" alt=""></a>-->
+	<!--			<a href="#" style="background: #FFF"><img src="http://www.washington.edu/marketing/files/2012/09/UW.Wordmark_stacked_K.jpg" alt=""></a>-->
+	<!--		</div>-->
+	<!--	</div>-->
+	<!--</section>-->
+	<section id="faq" class="width">
 		<h1>Frequently Asked Questions</h1>
 		<nav>
-			<a href="#faq-general" class="active">General</a> &nbsp;|&nbsp;
-			<a href="#faq-students">Students</a> &nbsp;|&nbsp;
+			<a href="#faq-general" class="active">General</a> &nbsp;&bull;&nbsp;
+			<a href="#faq-students">Students</a> &nbsp;&bull;&nbsp;
 			<a href="#faq-sponsors">Sponsors</a>
 		</nav>
-		
 		<article id="faq-general" class="active">
 			<h4>Why &lsquo;nwhacks&rsquo;?</h4>
-			<p>As the largest hackathon in the Pacific NorthWest Region, nwHacks is the place to be for the top hackers from Seattle, Vancouver, Victoria and Portland.</p>
-			<h4>What is a &lsquo;Hackathon&rsquo;?</h4>
-			<p>A Hackathon is an event where teams of 2-5 people create a software/hardware app in a limited amonut of time. Prizes are awarded to the most thoughtout, creative and most applicable projeccts created. They are usually chosen by a panel of judges.</p>
-
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, numquam, ut accusamus doloribus itaque molestiae dolorum eaque saepe aspernatur laboriosam molestias dolorem dolor illo odit odio sunt asperiores deserunt eum temporibus corporis enim sit nobis nostrum delectus labore nisi minus blanditiis atque aliquid necessitatibus laborum et recusandae reprehenderit dicta nemo!</p>
+			<h4>What does &lsquo;MMXIV&rsquo; mean?</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sit aliquid vero eveniet? Voluptatum, voluptate, veritatis. Impedit placeat neque reprehenderit sunt minus officia itaque officiis.</p>
 		</article>
-		
 		<article id="faq-students">
 			<h4>What should I bring?</h4>
-			<p>nwHacks is a 48hour event, which means you will be sleeping overnight. Be sure to bring everything you need to stay the night, including a sleeping bag! All food will be provided at event so don't worry about that!</p>
-			<!--<h4>What are the prizes?</h4>
-			<p>5000 will be given to the winning team, as judged by our panel of awesome judges! For -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, placeat repellat excepturi animi fuga velit minus perspiciatis necessitatibus asperiores temporibus odio cum. Repellendus, architecto quibusdam voluptatem distinctio culpa molestias laborum qui aliquam doloremque ut maxime eligendi numquam aut non eveniet atque ea quisquam odit est at quia nulla minus dolorem totam rerum! Ad, nulla, animi molestiae odio sint ut aliquid perferendis quisquam id illo a quae repellendus voluptatem laboriosam tempora ipsum nobis distinctio quo doloribus.</p>
+			<h4>What are the prizes?</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, fugiat, eius repellendus doloremque facere quibusdam dignissimos molestiae atque officiis quas! Libero, perferendis, labore minima dolores ex error eveniet veritatis itaque quaerat optio non maxime? Excepturi, iste, sint ea sapiente accusamus deserunt ex eaque modi consequuntur ipsa impedit exercitationem dolor obcaecati tempore perspiciatis. Numquam quia unde quos ipsam quo fuga beatae quas amet hic non! Enim, nihil consequatur aut modi eos animi sapiente veniam dolores facere mollitia. Consectetur, consequatur, dicta, laboriosam culpa nisi libero nihil ut non fugiat quaerat impedit dolores fuga incidunt quam a aliquid est officiis iusto illo voluptatem.</p>
 		</article>
 		<article id="faq-sponsors">
 			<h4>Where is the sponsorship package?</h4>
-			<p> Good thing you asked! You can find it <a href="./sponsors.pdf"> right here</a></p>
-			<!--
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatibus id vero? Deleniti, fuga, quo optio facere ab quas quia possimus aperiam velit atque aliquid rerum architecto reiciendis incidunt et! Adipisci, harum, itaque, voluptates nulla corrupti distinctio deserunt cumque culpa maxime esse incidunt magni ipsam mollitia necessitatibus voluptatum. Eos, quia.</p>
 			<h4>What can we do to contribute?</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, architecto, id, quidem aspernatur minima neque eius doloribus qui in incidunt laborum magnam. Odit, saepe earum corrupti enim repudiandae. Illo, laudantium, vero, culpa aliquid repellat consequatur quibusdam dolore laborum iure perspiciatis suscipit ea saepe optio vel expedita error quod eligendi laboriosam rem quia fugiat neque numquam magni sed rerum iusto voluptatibus libero odio ab. Nostrum, sed, consequuntur autem odio maiores aspernatur ab excepturi minima distinctio error. Quis dolorem tempore minus eius deleniti ipsum qui. Deserunt, similique, animi, ratione voluptatum at quia pariatur assumenda minima eius illo veritatis harum autem! Perferendis, magni.</p>
-			-->
 		</article>
 	</section>
 	<footer>
 		<nav>
-			<a href="#">Register</a> &middot; <a href="#">Become a sponsor</a> &middot; <a href="mailto:info@nwhacks.com">Email us</a>
+			<a href="#">Register</a> &middot; <a href="#">Become a sponsor</a> &middot; <a href="#">Email us</a>
 		</nav>
-		<p>nwhacks 2014 &middot; Organised and held by <a href="http://apps.polydaic.com/" target="_blank">UBC App &amp; That</a> &middot;</p>
+		<p>stormHacks 2014 &middot; Organised and held by <a href="http://startupstorm.org/" target="_blank">StartupStorm</a> &middot; Design by <a href="http://alfredxing.com" target="_blank">Alfred Xing</a></p>
 	</footer>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>$.easing.easeInOutCubic = function (x, t, b, c, d) {
+	if ((t/=d/2) < 1) return c/2*t*t*t + b;
+	return c/2*((t-=2)*t*t + 2) + b;
+}
+
+$('header nav a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500, "easeInOutCubic");
+    return false;
+});
+
+$("#faq nav a").click(function(e) {
+	e.preventDefault();
+	$("#faq article").removeAttr("class");
+	$("#faq nav a").removeAttr("class");
+	$($(this).attr("href")).addClass("active");
+	$(this).addClass("active");
+});
+
+function resize() {
+	var width = $(window).width();
+	var height = $(window).height();
+	$("section").first().css("margin-top", height + "px");
+	$("#montage a").each(function() {
+		$(this).css("width", width/$(this).siblings().andSelf().length);
+		var $img = $(this).children("img"), height = $(this).height();
+		$img.css("margin", (height - $img.height()) / 2 + "px auto");
+	});
+	$("#montage").removeAttr("class");
+}
+$(window).load(function(){resize();$("body").removeAttr("class")}).resize(resize);</script>
 </body>
 </html>
