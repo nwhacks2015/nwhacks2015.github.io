@@ -1901,6 +1901,11 @@ section.sponsors {
   position: relative;
 }
 
+a.edu {
+  margin-top:50px;
+  height: 4em!important;
+}
+
 
 #partner-logos.sponsors .peta a {
   height: 12rem;
