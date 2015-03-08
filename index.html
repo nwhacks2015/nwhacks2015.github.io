@@ -20,18 +20,39 @@
 <body>
 <header>
 	<div class="grid-container">
-		<div class="prefix-25 grid-50 suffix-25 tablet-prefix-20 tablet-grid-60 tablet-suffix-20 grid-container" id="header">
-			<div class="slogan hide-on-mobile hide-on-tablet">
+		<div class="prefix-15 grid-50 suffix-25 tablet-prefix-20 tablet-grid-60 tablet-suffix-20 grid-container show-on-desktop show-on-tablet hide-on-mobile" id="header">
+			
+			<div class="grid-90 slogan hide-on-mobile hide-on-tablet">
 				<h2>Western Canada's</h2><br>
 				<h1>Biggest</h1><br>
 				<h2>Hackathon</h2>
 			</div>
-			<img src="img/logo_notxt.png" class="hide-on-tablet" alt="logo">
+			
+			<div class="grid-10 hide-on-tablet hide-on-mobile">
+				<img src="img/logo_notxt.png" class="logo-notxt" alt="logo">
+			</div>
+				
+			<img src="img/logotxt.png" class="show-on-tablet hide-on-mobile logo-txt hide-on-desktop" alt="logo">	
+
 		</div>
-		<div class="prefix-25 grid-50 suffix-25 tablet-prefix-20 tablet-grid-60 tablet-suffix-20" id="hero">
-			<a id="sponsor-btn" href="/sponsors" style="margin-right:20px;margin-bottom:20px;">Sponsor Us</a>
-			<a id="prereg-btn" disabled style="background-color:orange;border:none;margin-right:20px;margin-bottom:20px;color:#f8f9f9;" href="/">Registration Closed</a>
-			<a id="sponsor-btn" href="//goo.gl/forms/ytM7p8LSAe" style='margin-bottom:20px;'>Mentor</a>
+
+		<div class="prefix-15 grid-50 suffix-25 tablet-prefix-20 tablet-grid-60 tablet-suffix-20 grid-container show-on-mobile hide-on-tablet hide-on-desktop" id="header">
+
+			<div class="mobile-prefix-25 mobile-grid-50 mobile-suffix-25" style="text-align:center;">
+				<img src="img/logo_notxt.png" style="height:auto; width:100%;" alt="logo">
+			</div>
+
+			<div class="show-on-mobile hide-on-desktop hide-on-tablet logo-notxt mobile-prefix-20 mobile-grid-60 mobile-suffix-20">
+				<h2 style="padding-top:9%; text-align:center;">nwHacks Spring 2015</h2>
+			</div>
+		</div>
+
+		<div class="prefix-25 grid-50 suffix-25 tablet-prefix-20 tablet-grid-60 tablet-suffix-20 grid-container" id="hero">
+			<a id="sponsor-btn" class="prefix-25 grid-25 mobile-prefix-30 mobile-grid-40 mobile-suffix-30" href="/sponsors" style="margin-right:20px;margin-bottom:20px;">Sponsor</a>
+
+<!-- 			<a id="prereg-btn" class="grid-30 mobile-prefix-30 mobile-grid-40 mobile-suffix-30" disabled style="background-color:orange;border:none;margin-right:20px;margin-bottom:20px;color:#f8f9f9;" href="/">Login</a> -->
+
+			<a class="grid-25 mobile-prefix-30 mobile-grid-40 mobile-suffix-30" href="//goo.gl/forms/ytM7p8LSAe" style='margin-bottom:20px;'>Mentor</a>
 		</div>
 
 		<div class="triangle">
@@ -42,7 +63,7 @@
 </header>
 
 <section id="intro">
-	<div class="date">
+	<div class="date mobile-grid-100">
 		<time datetime="2015-03-13">
 			<span class="month">March</span>
 			<span class="day">13-15<sup>th</sup></span>
@@ -50,11 +71,12 @@
 			<span class="year">2015</span>
 		</time>
 	</div>
-	<article class="grid-container" style="position: absolute; top: 100px; left: 30px;">
+	<article class="grid-container mobile-grid-100" style="position: absolute; top:20%; left: 30px;">
 		<h2 class="grid-100">THIS IS nwHACKS.</h2>
 
 		<p class="grid-70 suffix-30 tablet-grid-70 tablet-suffix-30 mobile-grid-90 mobile-suffix-10">
-			nwHacks is the largest hackathon in Western Canada, happening on March 13-15 in the Life Sciences Atrium in UBC. <br><br>
+			nwHacks is the largest hackathon in Western Canada, happening on March 13-15 in the Life Sciences Atrium in UBC. 
+			<br><br>
 			nwHacks is more than a hackathon - its about growing and connecting the community of awesome hackers. 
 			<br>
 			<br> 
@@ -71,7 +93,7 @@
 	</div>
 </section>
 
-<section id="stats" class="grid-container">
+<section id="stats" class="grid-container hide-on-mobile">
 	<ul class="grid-container">
 		<li class="grid-33 tablet-grid-33">
 			<dt>300+</dt>
@@ -125,8 +147,7 @@
 		<div class="question grid-50 tablet-grid-50">
 			<h3>How can I officially sign up?</h3>
 
-			<p>Official registration for nwHacks 2015 is open. Just go apply  <a href="https://docs.google.com/forms/d/1mzImEd7juirD5jUTviJQUO5wP_Acb0G7Cajq_6j1T0Y/viewform?c=0&w=1">here</a>
-				. Applications will be sent out on a rolling basis until Feburary 20th.</p>
+			<p>Official registration for nwHacks 2015 has closed. If you didn't get in, don't worry. nwHacks Fall is only a few months away.</p>
 		</div>
 
 	</article>
@@ -212,19 +233,14 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><span class="time-digit">4:30</span> PM</td>
+					<td><span class="time-digit">4:00</span> PM</td>
 					<td>Registration Opens</td>
-					<td>Outside LSC Atrium</td>
+					<td>Kaiser Atrium</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">5-6:30</span> PM</td>
-					<td>Team Formation, Networking etc</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><span class="time-digit">6:30-8:00</span> PM</td>
+					<td><span class="time-digit">6:00-8:00</span> PM</td>
 					<td>Opening Ceremonies</td>
-					<td>Sauder Building</td>
+					<td>ESB 1013</td>
 				</tr>
 				<tr>
 					<td><span class="time-digit">8:00</span> PM</td>
@@ -232,9 +248,45 @@
 					<td>LSC Atrium</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">Midnight</span> PM</td>
+					<td><span class="time-digit">8:15</span> PM</td>
+					<td>Dinner</td>
+					<td>Kaiser Atrium</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">8:15</span> PM</td>
+					<td>Apple Tech Talk</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">9:15</span> PM</td>
+					<td>Facebook Tech Talk</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">9:15</span> PM</td>
+					<td>Google Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">10:15</span> PM</td>
+					<td>MOJIO Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">11:15</span> PM</td>
+					<td>(TBD) Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">Midnight</span></td>
 					<td>Midnight Snack</td>
-					<td>Classroom</td>
+					<td>Kaiser Atrium</td>
 				</tr>
 			</tbody>
 		</table>
@@ -248,20 +300,54 @@
 				</tr>
 			</thead>
 			<tbody>
+
 				<tr>
-					<td><span class="time-digit">8:00</span> AM</td>
+					<td><span class="time-digit">1:00</span> AM</td>
+					<td>Sponsor Booths Close</td>
+					<td>MCLD 228</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">8:45</span> AM</td>
 					<td>Breakfast</td>
-					<td>Classroom</td>
+					<td>Kaiser Atrium</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">12:00</span> PM</td>
+					<td><span class="time-digit">9:00</span> AM</td>
+					<td>Facebook Worshop</td>
+					<td>MCLD 228</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">10:00</span> AM</td>
+					<td>Apple Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">11:00</span> AM</td>
+					<td>CA Technologies Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">12:30</span> PM</td>
 					<td>Lunch</td>
-					<td>Classroom</td>
+					<td>Kaiser Atrium</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">12:45</span> PM</td>
+					<td>Workshop (TBD)</td>
+					<td>MCLD 228</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">7:00</span> PM</td>
-					<td>Dinner</td>
-					<td>Classroom</td>
+					<td><span class="time-digit">1:45</span> PM</td>
+					<td>Workshop (TBD)</td>
+					<td>MCLD 228</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">1:45</span> PM</td>
+					<td>Midnight Snacks</td>
+					<td>Kaiser Atrium</td>
 				</tr>
 				
 			</tbody>
@@ -277,35 +363,50 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><span class="time-digit">8:00</span> AM</td>
-					<td>Breakfast Opens</td>
-					<td>Classroom</td>
-				</tr>
-				<tr>
-					<td><span class="time-digit">11:00</span> AM</td>
+					<td><span class="time-digit">8:30</span> AM</td>
 					<td>Hacking Stops!</td>
-					<td>LSC Atrium</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">12:00</span> PM</td>
-					<td>Expo and Lunch</td>
-					<td>TBD</td>
+					<td><span class="time-digit">8:30</span> AM</td>
+					<td>Breakfast Opens</td>
+					<td>Kaiser Atrium</td>
+				</tr>
+
+				<tr>
+					<td><span class="time-digit">10:00</span> AM</td>
+					<td>Expo</td>
+					<td>Kaiser Atrium / Kaiser 2020/2030 </td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">12:30</span> PM</td>
-					<td>Top 10 and API Winners Decided</td>
+					<td><span class="time-digit">1:00</span> PM</td>
+					<td>Top 3 and API Winners Decided</td>
+					<td>HA 098</td>
 				</tr>
 				<tr>
 					<td><span class="time-digit">2:00</span> PM</td>
-					<td>Closing Ceremonies and Pitches</td>
+					<td>Closing Ceremonies</td>
+					<td>HA 098</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">4:00-5:30</span> PM</td>
-					<td>Buses Leave</td>
+					<td><span class="time-digit">2:30</span> PM</td>
+					<td>Top 3 Finalist presentations</td>
+					<td>HA 098</td>
 				</tr>
 				<tr>
-					<td><span class="time-digit">6:00</span> PM</td>
-					<td>nwHacks is finished! See you next year.</td>
+					<td><span class="time-digit">3:00</span> PM</td>
+					<td>Winners annouced</td>
+					<td>HA 098</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">3:00</span> PM</td>
+					<td>Prize Presentations</td>
+					<td>HA 098</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">4:00</span> PM</td>
+					<td>nwHacks Officially Closes.</td>
+					<td>HA 098</td>
 				</tr>
 			</tbody>
 		</table>
@@ -349,32 +450,53 @@
 			<!--<div class="peta">
 			</div>-->
 			<div class="giga">
-				<a href="http://apple.com"><img src="/img/Apple_logo_black.svg.png"></a>
+				<a href="http://apple.com"><img src="img/Apple_logo_black.svg.png" ></a>
 			</div>
 			<div class="mega">
-				<a href="http://facebook.com"><img src="http://www.tecnologiabit.com/wp-content/uploads/2013/04/facebook-logo-nuevo.png"></a>
-				<a href="http://moj.io"><img src="https://www.moj.io/wp-content/uploads/mojio_logo.png"></a>
-				<a href="http://getpebble.com"><img src="http://die-smartwatch.de/wp-content/uploads/2014/05/Pebble_Smartwatches_Logo.png"></a>
-				<!--<a href="http://hangrofficial.com"><img src="http://hdil.dev4ppldevelopme.netdna-cdn.com/wp-content/uploads/2014/11/Hanger-logo-33.png" style="background-color:#936EC4"/></a>-->
+				<a href="http://facebook.com" class="rollover"><img src="http://www.tecnologiabit.com/wp-content/uploads/2013/04/facebook-logo-nuevo.png"></a>
+
+				<a href="http://moj.io" class="rollover"><img src="https://www.moj.io/wp-content/uploads/mojio_logo.png"></a>
+
+				<a href="http://ece.ubc.ca" class="rollover" style="height:12rem;width:50%;"><img src="img/sponsors/ubc.png"></a>
 			</div>
 			<div class="kilo">
-				<a href="http://google.com"><img src="/img/google.svg"/></a>
-				<a href="http://bench.co"><img src="https://bench.co/assets/img/press/logo.jpg"></a>
+				<a href="http://google.com" class="rollover"><img src="img/sponsors/google.png"/></a>
+				<a href="http://bench.co" class="rollover"><img src="img/sponsors/bench.png"></a>
+
+				<a href="http://sendwithus.com" class="rollover"><img src="img/sponsors/sendwithus.png"></a>
 			</div>
 			<div class="byte">
-				<a href="http://thalmiclabs.com"><img src="http://sparkcapital.com/wp-content/uploads/2013/07/thalmic_logo1.jpg"/></a>
-				<a href="http://brandbucket.com"><img src="https://www.brandbucket.com/images2/head_logo.png" style="background-color:#936EC4" /></a>
-				<a href="http://stickermule.com"><img src="http://www.marcofolio.net/images/stories/useful/reviews/stickermule/stickermule_logo.png"/></a>
-				<a href="http://interaxon.com"><img src="https://pbs.twimg.com/profile_images/441659285961863168/boT5CAja_400x400.jpeg"/></a>
+				<a href="http://getpebble.com" class="rollover"><img src="img/sponsors/pebble.png"></a>
+
+				<a href="http://thalmiclabs.com" class="rollover"><img src="img/sponsors/thalmic_labs.png"></a>
+
+				<a href="http://brandbucket.com" class="rollover"><img src="img/sponsors/brandbucket.png" style="background-color:#936EC4" /></a>
+
+				<a href="http://stickermule.com" class="rollover"><img src="img/sponsors/stickermule.png"/></a>
+
+				<a href="http://interaxon.com" class="rollover"><img src="img/sponsors/muse.png"/></a>
+
+				<a href="http://munchiesdelivery.ca" class="rollover"><img src="img/sponsors/munchies.png"/></a>
+
+				<a href="http://makerlabs.com" class="rollover"><img src="img/sponsors/makerlabs.png"/></a>
+
+				<a href="http://tessel.io" class="rollover"><img src="img/sponsors/tessel.png"/></a>
+
+				<a href="http://spark.io" class="rollover"><img src="img/sponsors/spark.png"/></a>
+
+				<a href="http://riipen.com" class="rollover"><img src="img/sponsors/riipen.png"/></a>
+
+
+				<a href="http://lighthouselabs.com" class="rollover"><img src="img/sponsors/lighthouse_labs.png"/></a>
 			</div>
 		</section>
 		
 		<section id="partner-logos" class="sponsors">
 			<h2>Partners</h2>
 			<div class="peta">
-				<a href="//startupstorm.org"><img src="//hackers.nwhacks.com/img/startupstorm.png"/></a>
-				<!--<a href="//mlh.io"><img src="//hackers.nwhacks.com/img/mlh.png"/></a>-->
-				<a href="//next36.ca"><img id="next36" src="//www.digitopoly.org/wp-content/uploads/2014/08/the-next-36-logo_1.png"/></a>
+				<a href="//startupstorm.org" class="rollover"><img src="http://hackers.nwhacks.com/img/startupstorm.png"/></a>
+				<a href="//hackingedu.co" class="rollover" ><img src="img/sponsors/hackingedu.png"/></a>
+				<a href="//next36.ca" class="rollover" ><img id="next36" src="http://www.digitopoly.org/wp-content/uploads/2014/08/the-next-36-logo_1.png"/></a>
 			</div>
 		</section>
 	</section>
