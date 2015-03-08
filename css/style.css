@@ -1858,9 +1858,11 @@ section.sponsors {
 
 .sponsors .rollover img {
   -webkit-filter: grayscale(1) opacity(0.5);
+  filter:grayscale(1) opacity(0.5);
 }
 .sponsors .rollover img:hover {
   -webkit-filter: none;
+  filter:none;
 }
 
 .sponsors .giga, .sponsors .mega, .sponsors .kilo, .sponsors .byte {
