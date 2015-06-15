@@ -1729,7 +1729,7 @@ margin-top:10px;
     color: #57655f;
     background: #fff;
     padding: 0.2em;
-    margin: 0.2em inherit;
+    margin-top: 0.2em;
     text-transform: none; }
   #hero input[type="submit"], #hero #micro-intro form textarea[type="submit"], #micro-intro form #hero textarea[type="submit"] {
     margin: 20px 0; }
