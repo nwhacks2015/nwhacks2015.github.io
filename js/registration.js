@@ -56,7 +56,7 @@ $(function() {
         $modal.modal('show');
         
         //window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
-
+        $("form").find("input[type=text]").val("");
         window.setTimeout( $('form').hide(), 500);
 
       },
