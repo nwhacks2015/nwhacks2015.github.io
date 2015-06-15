@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-grid-15:after,
 .tablet-grid-15:after,
 .grid-20:after,
-.mobile-grid-20:after,
+.mobile-grid-b20:after,
 .tablet-grid-20:after,
 .grid-25:after,
 .mobile-grid-25:after,
@@ -1564,7 +1564,7 @@ section {
 header {
   position: relative;
   padding-top: 10%;
-  background-image: url("https://photos-3.dropbox.com/t/2/AADzsk0BShIwla15BZQ7fz4zErAraAriil6Eo3XQm8QLog/12/278809193/jpeg/32x32/1/_/1/2/IMG_9655.JPG/COmU-YQBIAEgAiADIAQgBSAGIAcoASgC/HKyI3k_OXdG_1mfCyPqRhJz7hAN51IbXEsUc6RypwSo?size=800x600&size_mode=2"); /*url("../img/header_b.jpg");*/
+  background-image: url("https://photos-2.dropbox.com/t/2/AACLz6r3WrlI2ZA81sQecW83dJP61_iN6bPSVMel3nki8g/12/278809193/jpeg/32x32/1/_/1/2/IMG_9930.JPG/COmU-YQBIAEgAiADIAQgBSAGIAcoASgC/cPz6Fs3AEm6AGxsnBIP7gkhp4Fsa7murRVKR0ZDMsm4?size=800x600&size_mode=2");*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 100%; }
