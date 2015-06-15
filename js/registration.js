@@ -3,28 +3,43 @@ $(function() {
 
   Parse.initialize("VQV5exDOHIgQBqAnOM9KtnlyG3IIJ6qIeFwHvPxA", "V9BggunFvfLpRPUMJJvQ1tK1EnPlffoubmnD6LIl");
   // should really disable the return key 
-  /*
-  $('form').bind("keyup keypress", function(e) {
-    var code = e.keyCode || e.which; 
-    if (code  == 13) {               
-      e.preventDefault();
-      return false;
-    }
-  })*/
+  
+  // $('form').bind("keyup keypress", function(e) {
+  //   var code = e.keyCode || e.which; 
+  //   if (code  == 13) {               
+  //     e.preventDefault();
+  //     return false;
+  //   }
+  // });
+
+  //Modal event handlers
+  $('#prereg-modal').on('hide.bs.modal', function (e) {
+    $('form').hide();
+  });
 
     
-
   $('#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
     $("form").show();
   });
+  
+  // handler for form cancel
+  $('#cancel').on("click", function(event) {
+    //reset form fields
+    $("form").find("input[type=text]").val("");
+    
+    //hide form
+    $("#prereg-btn").show();
+    $("#sponsor-btn").show();
+    $("form").hide();
+  }
+  
   // handler for form submission
   $('#signup').on("click", function(event) {
     var $form = $('form');
     
     var $target = $($form.attr('data-target'));
-    console.log('hello');
     // Log the user out in case they're still logged in
     Parse.User.logOut();
     
@@ -38,14 +53,27 @@ $(function() {
         $("#prereg-btn").show();
         $("#sponsor-btn").show();
         $("#signup").hide();
-        window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
+        $("#cancel").hide();
+        
+        $modal = $('#prereg-modal');
+        
+        $modal.('.modal-title').text('Submission Successful');
+        $modal.('.modal-body p').text('Thanks for your showing your interest! You\'ll be the first to know when registration opens for nwHacks 2016.');
+        $modal.modal('show');
+        
+        //window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
 
-        window.setTimeout( $('form').hide(), 1000);
+        //window.setTimeout( $('form').hide(), 500);
 
       },
       error: function(user, error) {
-        $("#signup").show();
-        window.alert("There was an error with your application: " + error.message);
+        //$("#signup").show();
+        $modal = $('#prereg-modal');
+        
+        $modal.('.modal-title').text('Submission Error');
+        $modal.('.modal-body p').text('There was an error with your application: ' + error.message);
+        $modal.modal('show');
+        //window.alert("There was an error with your application: " + error.message);
       }
     });
     event.preventDefault();
