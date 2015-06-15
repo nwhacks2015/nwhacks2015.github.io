@@ -65,7 +65,7 @@ $(function() {
         $modal = $('#prereg-modal');
         
         $modal.find('.modal-title').text('Submission Error');
-        $modal.find('.modal-body p').text('There was an error with your application: ' + error.message);
+        $modal.find('.modal-body p').text(error.message);
         $modal.modal('show');
         //window.alert("There was an error with your application: " + error.message);
       }
