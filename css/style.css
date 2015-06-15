@@ -1842,6 +1842,9 @@ section.sponsors {
   text-align:center;
   margin-bottom: 10%
 }
+section.sponsors.partners{
+  margin-bottom: 15%;
+}
 
 .sponsors a {
   height: 4rem;
@@ -1904,7 +1907,7 @@ section.sponsors {
 
 a.edu {
   margin-top:50px;
-  height: 4em!important;
+  height: 2em!important;
 }
 
 
