@@ -1564,7 +1564,7 @@ section {
 header {
   position: relative;
   padding-top: 10%;
-  background-image: url("../img/header_b.jpg");
+  background-image: url("https://photos-3.dropbox.com/t/2/AADzsk0BShIwla15BZQ7fz4zErAraAriil6Eo3XQm8QLog/12/278809193/jpeg/32x32/1/_/1/2/IMG_9655.JPG/COmU-YQBIAEgAiADIAQgBSAGIAcoASgC/HKyI3k_OXdG_1mfCyPqRhJz7hAN51IbXEsUc6RypwSo?size=800x600&size_mode=2"); /*url("../img/header_b.jpg");*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 100%; }
