@@ -12,12 +12,6 @@ $(function() {
   //   }
   // });
 
-  //Modal event handlers
-  $('#prereg-modal').on('hide.bs.modal', function (e) {
-    $('form').hide();
-  });
-
-    
   $('#prereg-btn').click( function(){
     $("#prereg-btn").hide();
     $("#sponsor-btn").hide();
@@ -33,7 +27,7 @@ $(function() {
     $("#prereg-btn").show();
     $("#sponsor-btn").show();
     $("form").hide();
-  }
+  });
   
   // handler for form submission
   $('#signup').on("click", function(event) {
@@ -63,7 +57,7 @@ $(function() {
         
         //window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
 
-        //window.setTimeout( $('form').hide(), 500);
+        window.setTimeout( $('form').hide(), 500);
 
       },
       error: function(user, error) {
