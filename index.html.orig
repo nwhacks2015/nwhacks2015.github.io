@@ -8,7 +8,10 @@
 	<meta property="og:title" content="nwHacks Spring 2016" />
 	<meta property="og:url" content="//nwhacks.io" />
 	
-
+<<<<<<< HEAD
+	<title>nwHacks 2015</title>
+	<link href='http://fonts.googleapis.com/css?family=Lsato:300,400,700,900' rel='stylesheet' type='text/css'>
+=======
 	<title>nwHacks 2016</title>
 	
 	<!--Import Fonts-->
@@ -16,6 +19,7 @@
 	<link href='//fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/png" href="./favicon.ico">
 	<meta
@@ -133,9 +137,11 @@
 		<h2 class="grid-100">THIS IS nwHACKS 2016.</h2>
 
 		<p class="grid-70 suffix-30 tablet-grid-70 tablet-suffix-30 mobile-grid-90 mobile-suffix-10">
-
-			nwHacks is the largest hackathon in Western Canada, and were coming back on Jaunary 2016 in UBC to host another #hellyea hackathon! 
- 
+<<<<<<< HEAD
+			nwHacks is the largest hackathon in Western Canada, happening on March 13-15 in the Kaiser and MCLD in UBC. 
+=======
+			nwHacks is the largest hackathon in Western Canada, and were coming back on Jaunary 2016 in UBC to host another EPIC event! 
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 			<br><br>
 			nwHacks is more than a hackathon - its about growing and connecting the community of awesome hackers. 
 			<br>
@@ -276,7 +282,11 @@
 </section>
 
 
-<section id="schedule" style="display:none;">
+<<<<<<< HEAD
+<section id="schedule">
+=======
+<section id="hardware" style="display:none;">
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 	<section class="header-frame">
 		<h1 style="padding-top: 10vh;">Schedule</h1>
 		<h3>when and where</h3>
@@ -338,10 +348,15 @@
 				</tr>
 
 				<tr>
+<<<<<<< HEAD
 					<td><span class="time-digit">12:05</span> PM</td>
 					<td>Makerlabs Workshop</td>
 					<td>MCLD 228</td>
-
+=======
+					<td><span class="time-digit">11:15</span> PM</td>
+					<td>Makerlabs Workshop</td>
+					<td>MCLD 202</td>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 				</tr>
 
 				<tr>
@@ -351,13 +366,19 @@
 				</tr>
 				
 				<tr>
-
+<<<<<<< HEAD
+					<td><span class="time-digit">1:45</span> PM</td>
+=======
 					<td><span class="time-digit">11:00</span> AM</td>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 					<td>CA Technologies Workshop</td>
 					<td>MCLD 228</td>
 				</tr>
 
-
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 			</tbody>
 		</table>
 		<h2 style="text-align:center;">Saturday</h2>
@@ -371,7 +392,10 @@
 			</thead>
 			<tbody>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 				<tr>
 					<td><span class="time-digit">8:45</span> AM</td>
 					<td>Breakfast</td>
@@ -379,7 +403,17 @@
 				</tr>
 				<tr>
 					<td><span class="time-digit">9:00</span> AM</td>
+<<<<<<< HEAD
+					<td>Facebook Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
+				<tr>
+					<td><span class="time-digit">10:00</span> AM</td>
+					<td>Apple Workshop</td>
+					<td>MCLD 228</td>
+				</tr>
 
+=======
 					<td>Facebook Worshop</td>
 					<td>MCLD 202</td>
 				</tr>
@@ -389,6 +423,7 @@
 					</td>
 					<td>MCLD 202</td>
 				</tr>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 
 				<tr>
 					<td><span class="time-digit">12:30</span> PM</td>
@@ -523,10 +558,17 @@
 			<h2>Past Sponsors</h2>
 			<!--<div class="peta">
 			</div>-->
-
+<<<<<<< HEAD
+			<div class="giga apple">
+<<<<<<< HEAD
+				<a href="http://apple.com"><img src="img/sponsors/apple.png" ></a>
+=======
 			<div class="giga">
-
+				<a href="http://apple.com/jobs/students"><img src="img/Apple_logo_black.svg.png" ></a>
+>>>>>>> da3a2ab55602497219963c3f0f20b68b0d27f35e
+=======
 				<a href="//apple.com/jobs/students"><img src="img/sponsors/apple.png" ></a>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 			</div>
 			<div class="mega">
 				<a href="//facebook.com" class="rollover"><img src="//www.tecnologiabit.com/wp-content/uploads/2013/04/facebook-logo-nuevo.png"></a>
@@ -536,6 +578,12 @@
 				<a href="//ece.ubc.ca" class="rollover" style="height:12rem;width:50%;"><img src="img/sponsors/ubc.png"></a>
 				<a href="//ca.com" class="rollover" style="height:12rem;width:50%;"><img src="//www.ca.com/Images/CompanyLogo/ca_1c_242446.jpg"></a>
 
+<<<<<<< HEAD
+				<a href="http://ece.ubc.ca" class="rollover" style="height:12rem;width:50%;"><img src="img/sponsors/ubc.png"></a>
+				
+				<a href="http://www.ca.com/us/default.aspx" class="rollover"><img src="https://s3.amazonaws.com/SesameDomestic/STEM/artwork/CA_Logo_1-web.jpg"/></a>
+=======
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 			</div>
 			<div class="kilo">
 				<a href="//google.com" class="rollover"><img src="img/sponsors/google.png"/></a>
@@ -564,9 +612,14 @@
 
 				<a href="//tessel.io" class="rollover"><img src="img/sponsors/tessel.png"/></a>
 
+<<<<<<< HEAD
+
+			</div>
+=======
 				<a href="//spark.io" class="rollover"><img src="img/sponsors/spark.png"/></a>
 
 						</div>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 		</section>
 		
 		<section id="partner-logos" class="sponsors partners">
@@ -574,10 +627,16 @@
 			<div class="peta">
 				<a href="//startupstorm.org" class="rollover"><img src="//www.startupstorm.org/img/header_logo.png"/></a>
 				<a href="//hackingedu.co" class="edu rollover" ><img src="img/sponsors/hackingedu.jpg"/></a>
+<<<<<<< HEAD
+				<a href="//next36.ca" class="rollover" ><img id="next36" src="http://www.digitopoly.org/wp-content/uploads/2014/08/the-next-36-logo_1.png"/></a>
+				<a href="//riipen.com" class="rollover" ><img src="img/sponsors/riipen.png"> </a>
+				<a href="http://lighthouselabs.com" class="rollover"><img src="img/sponsors/lighthouse_labs.png"/></a>
 
+=======
 				<a href="//next36.ca" class="rollover" ><img id="next36" src="//www.digitopoly.org/wp-content/uploads/2014/08/the-next-36-logo_1.png"/></a>
 				<a href="//riipen.com" class="rollover"><img src="img/sponsors/riipen.png"/></a>
 				<a href="//lighthouselabs.com" class="rollover"><img src="img/sponsors/lighthouse_labs.png"/></a>
+>>>>>>> 4a3588a924147e718fa6206f0537eb939b10cdf7
 			</div>
 		</section>
 	</section>

@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-grid-15:after,
 .tablet-grid-15:after,
 .grid-20:after,
-.mobile-grid-20:after,
+.mobile-grid-b20:after,
 .tablet-grid-20:after,
 .grid-25:after,
 .mobile-grid-25:after,
@@ -1564,7 +1564,7 @@ section {
 header {
   position: relative;
   padding-top: 10%;
-  background-image: url("../img/header_b.jpg");
+  background-image: url("/img/backgroud_hacker.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 100%; }
@@ -1729,7 +1729,7 @@ margin-top:10px;
     color: #57655f;
     background: #fff;
     padding: 0.2em;
-    margin: 0.2em inherit;
+    margin-top: 0.2em;
     text-transform: none; }
   #hero input[type="submit"], #hero #micro-intro form textarea[type="submit"], #micro-intro form #hero textarea[type="submit"] {
     margin: 20px 0; }
@@ -1840,6 +1840,10 @@ section.sponsors {
   font-family: lato, sans-serif;
   color: #57655f;
   text-align:center;
+  margin-bottom: 10%
+}
+section.sponsors.partners{
+  margin-bottom: 15%;
 }
 
 .sponsors a {
@@ -1903,7 +1907,7 @@ section.sponsors {
 
 a.edu {
   margin-top:50px;
-  height: 4em!important;
+  height: 2em!important;
 }
 
 
