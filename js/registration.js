@@ -64,8 +64,8 @@ $(function() {
         //$("#signup").show();
         $modal = $('#prereg-modal');
         
-        $modal.('.modal-title').text('Submission Error');
-        $modal.('.modal-body p').text('There was an error with your application: ' + error.message);
+        $modal.find('.modal-title').text('Submission Error');
+        $modal.find('.modal-body p').text('There was an error with your application: ' + error.message);
         $modal.modal('show');
         //window.alert("There was an error with your application: " + error.message);
       }
