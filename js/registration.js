@@ -51,8 +51,8 @@ $(function() {
         
         $modal = $('#prereg-modal');
         
-        $modal.('.modal-title').text('Submission Successful');
-        $modal.('.modal-body p').text('Thanks for your showing your interest! You\'ll be the first to know when registration opens for nwHacks 2016.');
+        $modal.find('.modal-title').text('Submission Successful');
+        $modal.find('.modal-body p').text('Thanks for your showing your interest! You\'ll be the first to know when registration opens for nwHacks 2016.');
         $modal.modal('show');
         
         //window.alert("Thanks for your showing your interest! You'll be the first to know when registration opens for nwHacks.");
