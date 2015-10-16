@@ -16,7 +16,7 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; 
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -1536,7 +1536,7 @@ h1, h2, h3, h4, h5, h6 {
 
 html, body {
   height: 100%; }
-  
+
 body {
   text-rendering: optimizeLegibility; }
 
@@ -1564,7 +1564,7 @@ section {
 header {
   position: relative;
   padding-top: 10%;
-  background-image: url("/img/backgroud_hacker.JPG");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),  url("/img/backgroud_hacker.JPG");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 100%; }
@@ -1577,6 +1577,9 @@ header {
       left: 0; }
     header .triangle .small {
       left: 0; }
+@media screen and (min-width: 767px) {
+  header .input-name {
+    width: calc(50% - 1.25px); } }
 
 #header  {
   position: relative;
@@ -1638,7 +1641,7 @@ header {
     float: left;
     height: 13em;
     right: 0;
-    top: 0; 
+    top: 0;
     padding-left:10%;
     padding-right: 10%;
 margin-top:10px;
@@ -1660,7 +1663,7 @@ margin-top:10px;
   #hero .text {
     float: left;
     text-transform: uppercase;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
     @media (max-width: 767px) {
       #hero .text {
@@ -1742,7 +1745,7 @@ margin-top:10px;
 #intro {
   position: relative;
   padding: 200px 0;
-  height: 133%;
+  height: 600px;
   background-color: #f8f9f9; }
   #intro .date {
     position: absolute;
@@ -1810,7 +1813,8 @@ margin-top:10px;
       right: 0; }
 
 #stats {
-  padding: 50px 0; }
+  padding-top: 75px;
+  padding-bottom: 25px;}
   #stats ul li {
     text-align: center;
     font-family: lato, sans-serif;
@@ -1824,15 +1828,15 @@ margin-top:10px;
       text-transform: uppercase;
       font-weight: 700;
       color: #57655f; }
-      
-      
+
+
 #sponsor-logos {
   margin: 40px 20%;
   padding: 0;
   max-width: 60%;
 }
 
-section.sponsors { 
+section.sponsors {
   z-index: 5;
   font-weight: 700;
   font-size: 2em;
@@ -1997,9 +2001,9 @@ section .header-frame {
         #faq article .question h3 em {
           text-transform: none; }
       #faq article.faq-prose {
-        display:block; 
+        display:block;
         margin: 10% 20% 0 20%;
-      }     
+      }
       #faq article.faq-prose .question h3 {
         text-transform: none;
         font-size: 2.7em;
@@ -2013,12 +2017,12 @@ section .header-frame {
         color: black;
         font-weight: 900;
         margin-bottom: .1em;
-        margin-top: 0.3em; 
+        margin-top: 0.3em;
         color: #444; }
       #faq article .question p {
         color: #444;
         font-weight: 200;
-        line-height: 1.5em; 
+        line-height: 1.5em;
         margin-top:0.4em;
         font-size:1.4em;}
 
@@ -2032,26 +2036,26 @@ section .header-frame {
   padding: 50px 0; }
   #hardware .header-frame {
     background-color: #8FBE00;
-  } 
-  
+  }
+
 
 #sustainability {
   padding: 50px 0; }
   #sustainability .header-frame {
     background-color: #7DB99E;
-  } 
-  
+  }
+
 #sponsors {
   padding: 50px 0; }
   #sponsors .header-frame {
     background-color: #FF6B6B;
-  } 
-  
+  }
+
 #contact {
   padding: 50px 0; }
   #contact .header-frame {
     background-color: #336699;
-  } 
+  }
 
 
 
@@ -2141,7 +2145,7 @@ header.sponsor-header {
     transform: translateY(-50%);
     font-size: 5em;
     text-align: center; }
-    
+
   #hero.sponsor-hero.faq h2 {
     position: relative;
     padding-top:10%;
