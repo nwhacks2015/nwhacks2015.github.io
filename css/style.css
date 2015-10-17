@@ -1781,7 +1781,7 @@ margin-top:10px;
           top: 10%; } }
       #intro .date time .month {
         color: #45af75;
-        padding-left: 1em; }
+        padding-left: 0.3em; }
       #intro .date time .day {
         color: #45af75; }
         #intro .date time .day sup {
