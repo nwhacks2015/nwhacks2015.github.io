@@ -1818,6 +1818,7 @@ margin-top:10px;
   #stats ul li {
     text-align: center;
     font-family: lato, sans-serif;
+    list-style: none;
     margin: 50px 0; }
     #stats ul li dt {
       font-size: 3em;
